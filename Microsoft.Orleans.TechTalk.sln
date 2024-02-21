@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Grain placement", "1 - Grain placement", "{AE7F474C-8DAC-45CC-91BC-5955E9E59A9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Stateless worker grains", "2 - Stateless worker grains", "{62199B8A-9274-42D1-84F1-1A336573AD68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Grain persistence", "3 - Grain persistence", "{A2A12609-3E2A-4B30-B0AD-46262099E823}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Grain event sourcing", "4 - Grain event sourcing", "{5486785A-272B-4DDE-A47C-01AE1DAADDBC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Grain versioning", "5 - Grain versioning", "{E115D886-E163-4C73-A886-6E3189D225C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - Grain services", "6 - Grain services", "{6AA02A25-BCFC-43E5-8F1D-BD8EEDC7D8D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7 - Grain observers", "7 - Grain observers", "{E84DEB93-38D8-4D26-8FE8-19603CAA4299}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8 - Grain interceptors", "8 - Grain interceptors", "{2BF76B0A-ABD2-4B4A-80CB-8FCF62308BEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9 - Kubernetes deployment", "9 - Kubernetes deployment", "{F3F7317C-FC24-4E75-AFD1-607A7CCACA15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99 - [Bonus] Best-Pratices", "99 - [Bonus] Best-Pratices", "{6505ABE3-1AF2-4715-8CF2-DC4B593EFD04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "98 - [Bonus] Serialization", "98 - [Bonus] Serialization", "{CE481C98-F42A-43FE-9352-576E5EFAE620}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrainPlacement", "GrainPlacement\GrainPlacement.csproj", "{1A5964AC-55F0-4EB8-90AF-10BB23A98BAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "97 - [Bonus] 3.x vs 7.x", "97 - [Bonus] 3.x vs 7.x", "{75B89150-8DC1-4347-9754-A05AC86E9702}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatelessWorkerGrain", "StatelessWorkerGrain\StatelessWorkerGrain.csproj", "{C9247FE2-FFF1-4A65-8829-098B8AECB164}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrainPersistence", "GrainPersistence\GrainPersistence.csproj", "{9D3AF4D8-C6EF-46A8-A53F-B51B6A7C3A52}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrleansEventStore", "OrleansEventStore\OrleansEventStore.csproj", "{AC5E6A5E-B00F-452B-A71B-89F027D4A29A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrainVersioning.Server", "GrainVersioning\GrainVersioning.Server.csproj", "{7F0D98B7-C29D-4D2C-BA67-B55F99860EBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrainVersioning.Client", "GrainVersioning.Client\GrainVersioning.Client.csproj", "{637973BD-5A93-485A-8038-2648084433C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrainVersioning.Grains", "GrainVersioning.Grains\GrainVersioning.Grains.csproj", "{A187EDDC-1E62-4D9C-8CCD-7B205FBBCCD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrainVersioning.GrainInterfaces", "GrainVersioning.GrainInterfaces\GrainVersioning.GrainInterfaces.csproj", "{25D909A0-50AC-4E6A-AB3E-37C6492D4B39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A5964AC-55F0-4EB8-90AF-10BB23A98BAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A5964AC-55F0-4EB8-90AF-10BB23A98BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A5964AC-55F0-4EB8-90AF-10BB23A98BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A5964AC-55F0-4EB8-90AF-10BB23A98BAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9247FE2-FFF1-4A65-8829-098B8AECB164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9247FE2-FFF1-4A65-8829-098B8AECB164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9247FE2-FFF1-4A65-8829-098B8AECB164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9247FE2-FFF1-4A65-8829-098B8AECB164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D3AF4D8-C6EF-46A8-A53F-B51B6A7C3A52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D3AF4D8-C6EF-46A8-A53F-B51B6A7C3A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D3AF4D8-C6EF-46A8-A53F-B51B6A7C3A52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D3AF4D8-C6EF-46A8-A53F-B51B6A7C3A52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC5E6A5E-B00F-452B-A71B-89F027D4A29A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC5E6A5E-B00F-452B-A71B-89F027D4A29A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC5E6A5E-B00F-452B-A71B-89F027D4A29A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC5E6A5E-B00F-452B-A71B-89F027D4A29A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F0D98B7-C29D-4D2C-BA67-B55F99860EBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F0D98B7-C29D-4D2C-BA67-B55F99860EBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F0D98B7-C29D-4D2C-BA67-B55F99860EBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F0D98B7-C29D-4D2C-BA67-B55F99860EBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{637973BD-5A93-485A-8038-2648084433C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{637973BD-5A93-485A-8038-2648084433C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{637973BD-5A93-485A-8038-2648084433C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{637973BD-5A93-485A-8038-2648084433C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A187EDDC-1E62-4D9C-8CCD-7B205FBBCCD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A187EDDC-1E62-4D9C-8CCD-7B205FBBCCD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A187EDDC-1E62-4D9C-8CCD-7B205FBBCCD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A187EDDC-1E62-4D9C-8CCD-7B205FBBCCD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25D909A0-50AC-4E6A-AB3E-37C6492D4B39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25D909A0-50AC-4E6A-AB3E-37C6492D4B39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25D909A0-50AC-4E6A-AB3E-37C6492D4B39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25D909A0-50AC-4E6A-AB3E-37C6492D4B39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1A5964AC-55F0-4EB8-90AF-10BB23A98BAF} = {AE7F474C-8DAC-45CC-91BC-5955E9E59A9A}
+		{C9247FE2-FFF1-4A65-8829-098B8AECB164} = {62199B8A-9274-42D1-84F1-1A336573AD68}
+		{9D3AF4D8-C6EF-46A8-A53F-B51B6A7C3A52} = {A2A12609-3E2A-4B30-B0AD-46262099E823}
+		{AC5E6A5E-B00F-452B-A71B-89F027D4A29A} = {5486785A-272B-4DDE-A47C-01AE1DAADDBC}
+		{7F0D98B7-C29D-4D2C-BA67-B55F99860EBF} = {E115D886-E163-4C73-A886-6E3189D225C5}
+		{637973BD-5A93-485A-8038-2648084433C8} = {E115D886-E163-4C73-A886-6E3189D225C5}
+		{A187EDDC-1E62-4D9C-8CCD-7B205FBBCCD1} = {E115D886-E163-4C73-A886-6E3189D225C5}
+		{25D909A0-50AC-4E6A-AB3E-37C6492D4B39} = {E115D886-E163-4C73-A886-6E3189D225C5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1961396F-4AB2-48ED-B462-BB07BA03638B}
+	EndGlobalSection
+EndGlobal
